@@ -178,6 +178,7 @@ jQuery(function ($) {
 					sizer: '.shuffle-sizer',
 					buffer: 1
 				});
+		
 				$('input[name="shuffle-filter"]').on('change', function (evt) {
 					var input = evt.currentTarget;
 					if (input.checked) {
